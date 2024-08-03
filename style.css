@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar {
+    bottom: 0; /* Position at the bottom */
+    width: 100%; /* Full width of the viewport */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    background-color: #ffff;
+    position: absolute;
+    z-index: 110;
+}
+.startmenu{
+    position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 8px;
+    height: 450px;
+}
+.right{
+    justify-self: flex-start;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
